@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+   
+
+    <!-- Title Page-->
+    <title>Request for Payment</title>
+
+    <!-- Font special for pages-->
+    
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-light p-t-100 p-b-50" style="background-color: #8fc4b7";>
+        <div class="wrapper wrapper--w900">
+            <div class="card card-6">
+                <div class="card-heading">
+                    <h2 class="title">Request Payment</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="form-row">
+                            <div class="name">Date</div>
+                            <div class="value">
+                            <input class="input--style-6" type="text" name="full_name">
+                            </div>
+                        </div>
+
+                     <div class="form-row">
+                        <div class="name">Amount in Words</div>
+                        <div class="value">
+                         <input class="input--style-6" type="text" name="full_name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="name">Amount in Figures</div>
+                        <div class="value">
+                         <input class="input--style-6" type="text" name="full_name">
+                        </div>
+                    </div>
+
+                        <div class="form-row">
+                        <div class="name">Payable To</div>
+                        <div class="value">
+                         <input class="input--style-6" type="text" name="full_name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                            <div class="name">Discription</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <textarea class="textarea--style-6" name="message" placeholder="Reason for payment requisition"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Initiated By</div>
+                            <div class="value">
+                              <input class="input--style-6" type="text" name="full_name">
+                            </div>
+                        </div>
+                <div class="form-row">
+                    <div class="name"> Department </div>
+                  <select class="select" style="height: 20%;">
+                    <option value="1" disabled>Department</option>
+                    <option value="2">ICT</option>
+                    <option value="3">Finance</option>
+                    <option value="4">Admin</option>
+                    <option value="5">Procurement</option>
+                    <option value="6">Human Resource</option>
+                    <option value="7">Research & Development</option>
+                    <option value="8">B.E.D</option>
+                    <option value="9">Audit</option>
+                    <option value="10">Permits</option>
+                    <option value="4">Inspectorate</option>
+                  </select>
+
+                </div>
+                        
+
+
+                        <div class="form-row">
+                            <div class="name">Upload Document</div>
+                            <div class="value">
+                                <div class="input-group js-input-file">
+                                    <input class="input-file" type="file" name="file_cv" id="file">
+                                    <label class="label--file" for="file">Choose file</label>
+                                    <span class="input-file__info">No file chosen</span>
+                                </div>
+                                <div class="label--desc">Upload any relevant file. Max file size 50 MB</div>
+                            </div>
+                        </div>
+ 
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn--radius-2 btn--blue-2" type="submit">Send Application</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
